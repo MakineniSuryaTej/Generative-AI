@@ -4,8 +4,8 @@ import pandas as pd
 import traceback
 from dotenv import load_dotenv
 from src.MCQGenerator.utils import read_file, get_table
-from src.MCQGenerator.logger import logging
-from langchain.chat_models import ChatOpenAI
+# from src.MCQGenerator.logger import logging
+from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain

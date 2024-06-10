@@ -6,7 +6,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from langchain_community.callbacks.manager import get_openai_callback
 from src.MCQGenerator.utils import read_file, get_table
-from src.MCQGenerator.logger import logging
+# from src.MCQGenerator.logger import logging
 from src.MCQGenerator.MCQGenerator import combined_chain
 
 with open(r"C:\Users\makin\Desktop\My workspace\GENAI\Response.json", 'r') as file:
